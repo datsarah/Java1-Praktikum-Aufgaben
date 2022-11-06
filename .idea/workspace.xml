@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c7d84-68c3-499d-920b-babbc206c1eb" name="Changes" comment="finsh">
-      <change afterPath="$PROJECT_DIR$/src/ArithmetischesMittel.java" afterDir="false" />
-    </list>
+    <list default="true" id="5e7c7d84-68c3-499d-920b-babbc206c1eb" name="Changes" comment="finsh" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +21,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HAvjnx28W7cXtioC3WY6s8NzVD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667740839923</updated>
-      <workItem from="1667740841042" duration="300000" />
+      <workItem from="1667740841042" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1667740963701</created>
@@ -59,7 +59,42 @@
       <option name="project" value="LOCAL" />
       <updated>1667741037946</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finsh">
+      <created>1667741195191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667741195191</updated>
+    </task>
+    <task id="LOCAL-00004" summary="finsh">
+      <created>1667741298979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667741298979</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finsh">
+      <created>1667741338549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667741338549</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finsh">
+      <created>1667741370032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667741370032</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finsh">
+      <created>1667741428578</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667741428578</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
