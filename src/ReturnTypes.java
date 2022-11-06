@@ -27,13 +27,14 @@ public class ReturnTypes {
     public static int[] removeBelowZero(int[] arr) {
         int abovedzero = 0;
         int zaehler = 0;
+        int[] newuarr = new int[abovedzero];
 
         for (int zahl : arr) {
             if (zahl >= 0) {
                 abovedzero++;
             }
         }
-        int[] newuarr = new int[abovedzero];
+
         for(int i = 0; i < arr.length; i++){
             if(arr[i] >= 0){
                 newuarr[zaehler] = arr[i];
@@ -45,8 +46,14 @@ public class ReturnTypes {
     }
 
     public static double percentageOf(int part, int total){
-        int hundert = 100;
-        total = part*(hundert/1);
-        return total;
+        /*
+        100% = zahlx
+        1%   = zahlx/100
+        z%   = (zahlx/100)*z
+         */
+        int ergebnis = 0;
+        ergebnis = (total/100)*part;
+
+        return ergebnis;
     }
 }
