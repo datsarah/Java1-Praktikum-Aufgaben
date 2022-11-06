@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c7d84-68c3-499d-920b-babbc206c1eb" name="Changes" comment="finsh" />
+    <list default="true" id="5e7c7d84-68c3-499d-920b-babbc206c1eb" name="Changes" comment="finsh">
+      <change afterPath="$PROJECT_DIR$/src/MethodActing.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667740839923</updated>
-      <workItem from="1667740841042" duration="897000" />
+      <workItem from="1667740841042" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1667740963701</created>
@@ -115,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667741722710</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finsh">
+      <created>1667741873507</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667741873507</updated>
+    </task>
+    <task id="LOCAL-00012" summary="finsh">
+      <created>1667742028196</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667742028196</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
