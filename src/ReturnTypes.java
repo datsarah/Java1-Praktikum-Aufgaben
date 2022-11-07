@@ -1,5 +1,6 @@
 import java.lang.StringBuilder;
 import java.util.Arrays;
+
 public class ReturnTypes {
     public static void main(String[] args) {
 
@@ -18,27 +19,33 @@ public class ReturnTypes {
 
     public static String statistics(int[] arr) {
         StringBuilder sb = new StringBuilder();
-        //
-        int numVal = (arr.length);
-        sb.append("Number of values: " + numVal + "\n");
-        //Aufruf von removeBelowZero
+
+        // Abruf Größe des Arrays arr
+        sb.append("Number of values: " + arr.length + "\n");
+
+        // Abruf von removeBelowZero
         int belowzero = (arr.length - removeBelowZero(arr).length);
 
-        sb.append("Number of negative values removed: " + belowzero + "\n" );
+        sb.append("Number of negative values removed: " + belowzero + "\n");
 
 
-        //Aufruf von highest
-        sb.append("Highest value in dataset: " + highest(arr) + "\n");
+        // Abruf von highest
+        //sb.append("Highest value in dataset: " + highest(arr) + "\n");
+        sb.append("Highest value in dataset: "  + highest(removeBelowZero(arr)) + "\n");
 
 
-        //Aufruf von lowest
-        sb.append("Lowest value in dataset: " + lowest(arr) + "\n");
+        // Abruf von lowest
+        //sb.append("Lowest value in dataset: " + lowest(arr) + "\n");
+        sb.append("Lowest value in dataset: "  + lowest(removeBelowZero(arr)) + "\n");
 
 
-        //Aufruf von percentOf
-        int part = lowest(arr);
-        int total = highest(arr);
-        sb.append("Lowest is " + percentageOf(part, total) +"% of highest value \n");
+        //percentof
+        //int part = lowest(arr);
+        //int total = highest(arr);
+        int part = lowest(removeBelowZero(arr));
+        int total = highest(removeBelowZero(arr));
+        sb.append("Lowest is " + percentageOf(part, total)+ " of highest value \n ");
+
 
 
         return sb.toString();
@@ -48,13 +55,16 @@ public class ReturnTypes {
     public static int[] removeBelowZero(int[] arr) {
         int abovedzero = 0;
         int zaehler = 0;
-        int[] newuarr = new int[arr.length];
+
 
         for (int zahl : arr) {
             if (zahl >= 0) {
                 abovedzero++;
             }
         }
+
+        int[] newuarr = new int[abovedzero];
+
 
         for(int i = 0; i < arr.length; i++){
             if(arr[i] >= 0){
@@ -67,29 +77,25 @@ public class ReturnTypes {
     }
 
     public static double percentageOf(int part, int total){
-        /*
-        100% = zahlx
-        1%   = zahlx/100
-        z%   = (zahlx/100)*z
-         */
-        double ergebnis = 0;
-        ergebnis = (total/100)*part;
+
+        double partD = part;
+        double totalD = total;
+        double ergebnis = (partD/totalD)*100;
+
 
         return ergebnis;
     }
 
+
     public static int lowest(int[] arr){
         Arrays.sort(arr);
         int lowestNumber = arr[0];
-
-        //System.out.println(arr[0]);
         return lowestNumber;
     }
 
     public static int highest(int[] arr){
         Arrays.sort(arr);
-        int highestNumber = arr[arr.length-1];
-
+        int highestNumber = (arr[arr.length - 1]);
         return highestNumber;
     }
 }
