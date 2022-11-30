@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e7c7d84-68c3-499d-920b-babbc206c1eb" name="Changes" comment="finish">
-      <change afterPath="$PROJECT_DIR$/src/Schachtelgenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PasswordGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,10 @@
       <workItem from="1668433707978" duration="42000" />
       <workItem from="1668433754573" duration="3734000" />
       <workItem from="1668860937995" duration="6120000" />
+      <workItem from="1669048312606" duration="5601000" />
+      <workItem from="1669056002982" duration="430000" />
+      <workItem from="1669375156075" duration="632000" />
+      <workItem from="1669657811611" duration="1692000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1667740963701</created>

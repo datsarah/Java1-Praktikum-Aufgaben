@@ -5,6 +5,10 @@ public class Item {
     private int value;
     private int quality;
 
+    //Konstruktor
+    public Item() {
+    }
+
     public static void main(String[] args) {
         Item i = new Item();
 
