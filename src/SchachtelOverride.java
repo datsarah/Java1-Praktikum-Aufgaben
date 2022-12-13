@@ -88,7 +88,7 @@ public class SchachtelOverride {
 
 
 
-    /* TBD - welches Objekt?
+    /*
             Die Methode soll den übergebenen Parameter obj vergleichen mit dem aktuellen Objekt (this).
             Sollte obj null sein, wird false zurückgegeben.
             Sollte this obj entsprechen, wird true zurückgegeben.
