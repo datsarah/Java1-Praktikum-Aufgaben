@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7c7d84-68c3-499d-920b-babbc206c1eb" name="Changes" comment="finish">
-      <change afterPath="$PROJECT_DIR$/src/Arena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Autohaus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hund.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IAutohaus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IKollege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Katze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kollege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SchachtelOverride.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tierable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5e7c7d84-68c3-499d-920b-babbc206c1eb" name="Changes" comment="finish" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +61,7 @@
       <workItem from="1670671428797" duration="11181000" />
       <workItem from="1670768068705" duration="20471000" />
       <workItem from="1670920245913" duration="8000" />
+      <workItem from="1670921641072" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1667740963701</created>
@@ -285,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668877295559</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="finish">
+      <created>1670921751681</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670921751681</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
