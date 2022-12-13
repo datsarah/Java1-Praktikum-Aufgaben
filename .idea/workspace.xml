@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e7c7d84-68c3-499d-920b-babbc206c1eb" name="Changes" comment="finish">
+      <change afterPath="$PROJECT_DIR$/src/Arena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Autohaus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hund.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IAutohaus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IKollege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Katze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kollege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SchachtelOverride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tierable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Warrior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pflanze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pflanze.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +30,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,7 +54,11 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sarah/IdeaProjects/Java1-Praktikum-Aufgaben&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,6 +75,12 @@
       <workItem from="1668433707978" duration="42000" />
       <workItem from="1668433754573" duration="3734000" />
       <workItem from="1668860937995" duration="6120000" />
+      <workItem from="1669917658256" duration="2465000" />
+      <workItem from="1670251158118" duration="3315000" />
+      <workItem from="1670257303102" duration="618000" />
+      <workItem from="1670671428797" duration="11181000" />
+      <workItem from="1670768068705" duration="20471000" />
+      <workItem from="1670920245913" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1667740963701</created>
